@@ -1,0 +1,47 @@
+*****************************     general     *****************************
+- remember offers
+- add weekend days to employee   (dashboard)
+- send sms after book an appointment
+- check QRcode
+*****************************     user        *****************************
+
+*****************************     service     *****************************
+
+*****************************     employee    *****************************
+
+*****************************     institution *****************************
+
+*****************************     appointment *****************************
+
+*****************************     payment     *****************************
+
+*****************************     plans       *****************************
+
+*****************************     category    *****************************
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------
+payment : 
+    payment for subscribe (institution owner to Bilal)  type : subscription
+    payment for the owner (client to institution owner)   type : checkout
+
+slemansafiah45@gmail.com    //own account
+5771125sssSSS
+
+sb-xky027502728@business.example.com    //business account
+2PT{$5gp
+
+
+sb-emkjy7504394@personal.example.com    //personal account
+*/FzQ=3g
+
+
+sb-lwt0a7531452@personal.example.com    //personal account
+kN7%9^sX
+
+---------------------------------------------------------------------------------------------
