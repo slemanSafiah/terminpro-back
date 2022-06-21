@@ -24,7 +24,7 @@ class UserService {
 
 	async save() {
 		const user = await User.findOne({ email: this.email });
-		if (user !== null) throw new Exception(httpStatus.CONFLICT, 'User Already exists');
+		if (user !== null) return { msg: 'User Already exists' };
 		const result = await new User(this).save();
 		if (!result) throw new Exception();
 
@@ -129,8 +129,13 @@ class UserService {
 	}
 
 	static async getInstitutions(category) {
-		console.log(category);
-		const result = await User.find({ category: category, type: 'institution' });
+		const filter = {
+			type: 'institution',
+		};
+
+		const limit = category ? 1000 : 6;
+		if (category) filter['category'] = category;
+		const result = await User.find(filter).limit(limit);
 		return result;
 	}
 
