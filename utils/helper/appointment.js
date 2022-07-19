@@ -1,9 +1,6 @@
 const Institution = require('../../src/app/institution/Institution');
 const Appointment = require('../../src/app/appointment/Appointment');
-const User = require('../../src/app/user/User');
-const pdf = require('pdf-creator-node');
 const paths = require('../../paths');
-const fs = require('fs').promises;
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const { checkDir } = require('./checkdir');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
